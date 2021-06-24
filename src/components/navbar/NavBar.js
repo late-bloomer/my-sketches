@@ -11,6 +11,7 @@ function NavBar() {
     }
     const closeMobileMenu = () => {
         setClick(false)
+        window.scrollTo(0,0); //for scrolling to top
     }
 
     const showButton = () => {
