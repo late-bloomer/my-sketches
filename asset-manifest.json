@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-sketches/static/css/main.a514a595.chunk.css",
+    "main.js": "/my-sketches/static/js/main.c49e8d7d.chunk.js",
+    "main.js.map": "/my-sketches/static/js/main.c49e8d7d.chunk.js.map",
+    "runtime-main.js": "/my-sketches/static/js/runtime-main.7c8b548e.js",
+    "runtime-main.js.map": "/my-sketches/static/js/runtime-main.7c8b548e.js.map",
+    "static/js/2.4efb4044.chunk.js": "/my-sketches/static/js/2.4efb4044.chunk.js",
+    "static/js/2.4efb4044.chunk.js.map": "/my-sketches/static/js/2.4efb4044.chunk.js.map",
+    "index.html": "/my-sketches/index.html",
+    "static/css/main.a514a595.chunk.css.map": "/my-sketches/static/css/main.a514a595.chunk.css.map",
+    "static/js/2.4efb4044.chunk.js.LICENSE.txt": "/my-sketches/static/js/2.4efb4044.chunk.js.LICENSE.txt",
+    "static/media/Me.021dcb5e.jpg": "/my-sketches/static/media/Me.021dcb5e.jpg",
+    "static/media/akku.761c2644.jpg": "/my-sketches/static/media/akku.761c2644.jpg",
+    "static/media/bhawna.3229e192.jpg": "/my-sketches/static/media/bhawna.3229e192.jpg",
+    "static/media/fox.09397a1f.jpg": "/my-sketches/static/media/fox.09397a1f.jpg",
+    "static/media/Home.css": "/my-sketches/static/media/rDraw1.8610ee60.jpg",
+    "static/media/rDraw2.e611b329.jpg": "/my-sketches/static/media/rDraw2.e611b329.jpg",
+    "static/media/rDraw3.edcef865.jpg": "/my-sketches/static/media/rDraw3.edcef865.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c8b548e.js",
+    "static/js/2.4efb4044.chunk.js",
+    "static/css/main.a514a595.chunk.css",
+    "static/js/main.c49e8d7d.chunk.js"
+  ]
+}
