@@ -18,9 +18,9 @@ export class Layout extends Component {
                 <NavBar />
                 <Fragment>{/* Changing component */}
                     <Switch>
-                        <Route exact path="/" component={Home} />
-                        <Route path="/about-me" component={About} />
-                        {/* <Route path="/contact-me" component={Contact} /> */}
+                        <Route exact path="/my-sketches" component={Home} />
+                        <Route path="/my-sketches/about-me" component={About} />
+                        {/* <Route path="/my-sketches/contact-me" component={Contact} /> */}
                         <Route component={(props) => <Fragment>Not Found !!!</Fragment>} />
                     </Switch>
                 </Fragment>
