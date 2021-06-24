@@ -4,13 +4,15 @@ import './Home.css'
 import Draw1 from '../../pictures/rDraw1.jpg'
 import Draw2 from '../../pictures/rDraw2.jpg'
 import Draw3 from '../../pictures/rDraw3.jpg'
+import Draw4 from '../../pictures/rDraw4.jpg'
 
 var slideIndex = 0;
 var dotIndex = 0;
 var images = [
     Draw1,
     Draw2,
-    Draw3
+    Draw3,
+    Draw4
 ]
 var idSetTimeout = null;
 export class Home extends Component {
@@ -32,12 +34,12 @@ export class Home extends Component {
         if (slideIndex === images.length) {
             slideIndex =  0;
         }
-        if (dotIndex > 3) {dotIndex = 1}    
-        for (i = 0; i < 3; i++) {
+        if (dotIndex > 4) {dotIndex = 1}    
+        for (i = 0; i < 4; i++) {
           dots[i].className = dots[i].className.replace("dot-active", "");
         } 
         dots[dotIndex-1].className += " dot-active";
-        idSetTimeout = setTimeout(this.showSlides, 2500); // Change image every 2.5 seconds
+        idSetTimeout = setTimeout(this.showSlides, 2300); // Change image every 2.3 seconds
     }
 
     componentWillUnmount() {
@@ -52,6 +54,7 @@ export class Home extends Component {
                     <h1>CANVAS OF LIFE AWAITS</h1>
                     <p>What are you waiting for?</p>
                     <div style={{"textAlign":"center"}}>
+                        <span className="dot"></span> 
                         <span className="dot"></span> 
                         <span className="dot"></span> 
                         <span className="dot"></span> 
