@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/my-sketches/static/css/main.93c7c9c7.chunk.css",
-    "main.js": "/my-sketches/static/js/main.1ed96017.chunk.js",
-    "main.js.map": "/my-sketches/static/js/main.1ed96017.chunk.js.map",
-    "runtime-main.js": "/my-sketches/static/js/runtime-main.53233c3f.js",
-    "runtime-main.js.map": "/my-sketches/static/js/runtime-main.53233c3f.js.map",
-    "static/js/2.5a288d96.chunk.js": "/my-sketches/static/js/2.5a288d96.chunk.js",
-    "static/js/2.5a288d96.chunk.js.map": "/my-sketches/static/js/2.5a288d96.chunk.js.map",
+    "main.css": "/my-sketches/static/css/main.fef7ca8e.chunk.css",
+    "main.js": "/my-sketches/static/js/main.5b9283c6.chunk.js",
+    "main.js.map": "/my-sketches/static/js/main.5b9283c6.chunk.js.map",
+    "runtime-main.js": "/my-sketches/static/js/runtime-main.cf7b20a0.js",
+    "runtime-main.js.map": "/my-sketches/static/js/runtime-main.cf7b20a0.js.map",
+    "static/js/2.91217c67.chunk.js": "/my-sketches/static/js/2.91217c67.chunk.js",
+    "static/js/2.91217c67.chunk.js.map": "/my-sketches/static/js/2.91217c67.chunk.js.map",
+    "static/js/3.33405c29.chunk.js": "/my-sketches/static/js/3.33405c29.chunk.js",
+    "static/js/3.33405c29.chunk.js.map": "/my-sketches/static/js/3.33405c29.chunk.js.map",
+    "static/css/4.16b5d6a3.chunk.css": "/my-sketches/static/css/4.16b5d6a3.chunk.css",
+    "static/js/4.036dc644.chunk.js": "/my-sketches/static/js/4.036dc644.chunk.js",
+    "static/js/4.036dc644.chunk.js.map": "/my-sketches/static/js/4.036dc644.chunk.js.map",
     "index.html": "/my-sketches/index.html",
-    "static/css/main.93c7c9c7.chunk.css.map": "/my-sketches/static/css/main.93c7c9c7.chunk.css.map",
-    "static/js/2.5a288d96.chunk.js.LICENSE.txt": "/my-sketches/static/js/2.5a288d96.chunk.js.LICENSE.txt",
+    "static/css/4.16b5d6a3.chunk.css.map": "/my-sketches/static/css/4.16b5d6a3.chunk.css.map",
+    "static/css/main.fef7ca8e.chunk.css.map": "/my-sketches/static/css/main.fef7ca8e.chunk.css.map",
+    "static/js/3.33405c29.chunk.js.LICENSE.txt": "/my-sketches/static/js/3.33405c29.chunk.js.LICENSE.txt",
     "static/media/Me.021dcb5e.jpg": "/my-sketches/static/media/Me.021dcb5e.jpg",
     "static/media/akku.761c2644.jpg": "/my-sketches/static/media/akku.761c2644.jpg",
     "static/media/bhawna.3229e192.jpg": "/my-sketches/static/media/bhawna.3229e192.jpg",
@@ -20,9 +26,9 @@
     "static/media/fox.09397a1f.jpg": "/my-sketches/static/media/fox.09397a1f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.53233c3f.js",
-    "static/js/2.5a288d96.chunk.js",
-    "static/css/main.93c7c9c7.chunk.css",
-    "static/js/main.1ed96017.chunk.js"
+    "static/js/runtime-main.cf7b20a0.js",
+    "static/js/3.33405c29.chunk.js",
+    "static/css/main.fef7ca8e.chunk.css",
+    "static/js/main.5b9283c6.chunk.js"
   ]
 }
