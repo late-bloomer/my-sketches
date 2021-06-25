@@ -14,7 +14,7 @@ function Exhibition() {
                     <ul className='exhibition__items'>
                         <CardItem
                             src={Draw1}
-                            text='Seeing this is a kind of meditation. More you see, more you get addicted.'
+                            text='Seeing this, is a kind of meditation. More you see, more you get addicted.'
                             label='Moksha'
                             secondText='Mohit Sharma'
                             //path='/services'
@@ -38,7 +38,7 @@ function Exhibition() {
                         />
                         <CardItem
                             src={Draw2}
-                            text='Seeing this is a kind of meditation. More you see, more you get addicted.'
+                            text='Seeing this, is a kind of meditation. More you see, more you get addicted.'
                             label='Adventure'
                             secondText='Mohit Sharma'
                             small
@@ -46,7 +46,7 @@ function Exhibition() {
                         />
                         <CardItem
                             src={Draw3}
-                            text='Seeing this is a kind of meditation. More you see, more you get addicted.'
+                            text='Seeing this, is a kind of meditation. More you see, more you get addicted.'
                             label='Adrenaline'
                             secondText='Mohit Sharma'
                             small
