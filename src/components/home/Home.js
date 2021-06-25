@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import Exhibition from '../exhibition/Exhibition'
 import './Home.css'
-import Draw4 from '../../pictures/comDraw1.jpg'
-import Draw2 from '../../pictures/comDraw7.jpg'
+import Draw1 from '../../pictures/comDraw7.jpg'
+import Draw2 from '../../pictures/comDraw6.jpg'
 import Draw3 from '../../pictures/comDraw3.jpg'
-import Draw1 from '../../pictures/comDraw6.jpg'
+import Draw4 from '../../pictures/comDraw1.jpg'
+
 
 var slideIndex = 0;
 var dotIndex = 0;
@@ -60,7 +61,7 @@ export class Home extends Component {
                         <span className="dot"></span> 
                     </div>
                     <div className="home-slider">
-                       <i class="fas fa-angle-double-down"></i>
+                       <i className="fas fa-angle-double-down"></i>
                     </div>
                 </div>
                 <Exhibition />
