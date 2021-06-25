@@ -58,21 +58,66 @@
   }
   
   .cards__item__img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
   }
 
   .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 20px;
+  }
+
+  .cards__item__info__small {
+    padding: 12px;
   }
   
   .cards__item__text {
     color: #252e48;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 24px;
+    font-family: sans-serif;
+  }
+
+  .cards__item__text__small {
+    color: #252e48;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: sans-serif;
   }
 
   @media only screen and (max-width: 1024px) {
     .cards__item {
       margin-bottom: 2rem;
+    }
+
+    .cards__item__text__small {
+      font-size: 15px;
+      line-height: 24px;
+    }
+
+    .cards__item__info__small {
+      padding: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 510px) {
+    .cards__item {
+      margin: 0 0 2rem 0;
+    }
+  }
+
+  @media only screen and (max-width: 510px) {
+    .cards__item__text, .cards__item__text__small {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    .cards__item__info, .cards__item__info__small {
+       padding: 12px; 
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+    .cards__item__text, .cards__item__text__small {
+      font-size: 12px;
+      line-height: 20px;
     }
   }

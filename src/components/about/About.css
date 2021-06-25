@@ -1,18 +1,18 @@
 .about-container{
-    padding: 10rem;
+    padding: 6rem 10rem;
     display: flex;
-    flex-direction: row;    
-    height: 60vh;
+    flex-direction: row;
 }
 
 .me-img{
     width: 20vw;
+    margin-top: 2vh;
     border-radius: 16px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about-me-text{
-    font-size: 5rem;
+    font-size: 3rem;
     font-family: cursive;
 }
 
@@ -28,13 +28,12 @@
 }
 
 .about-me-para2{
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-right: 1rem;
 }
 
 .about-me-para3{
-    margin-top: 3rem;
-    margin-right: 1rem;
+    margin: 2rem 1rem 2rem 0;
     font-size: 1.5rem;
     font-family: fantasy;
 }
@@ -45,10 +44,6 @@
 }
 
 @media screen and (max-width: 1330px){
-    .about-me-text{
-        font-size: 3rem;
-    }
-
     .about-me-para, .about-me-para3, .about-me-life{
         font-size: 1.2rem;
     }
@@ -65,7 +60,7 @@
     .me-img{    
         width: 20vw;
         height: 20vh;
-        border-radius: 50%;
+        border-radius: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .about-me-text, .about-me-para, .about-me-para3{
@@ -78,15 +73,26 @@
         padding: 4rem;
     }
 
-    .me-img{    
-        height: 13vh;
-    }
-
     .about-me-text{
         font-size: 2rem;
     }
 
     .about-me-para, .about-me-para3, .about-me-life{
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .me-img{    
+        height: 13vh;
+    }
+}
+
+@media screen and (max-width: 385px){
+
+    .me-img{    
+        height: 13vh;
+        width: auto;
     }
 }

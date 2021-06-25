@@ -43,4 +43,7 @@
     .social-media-wrap {
       flex-direction: column;
     }
+    .website-rights {
+      margin-bottom: 4px;
+    }
   }
