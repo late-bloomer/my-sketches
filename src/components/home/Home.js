@@ -15,7 +15,7 @@ import Draw44 from '../../pictures/comDraw11.jpg'
 
 var slideIndex = 0;
 var dotIndex = 0;
-var images = window.innerWidth <= 560 ? [
+var images = window.innerWidth <= 550 ? [
     Draw11,
     Draw22,
     Draw33,
@@ -35,6 +35,7 @@ export class Home extends Component {
     }
 
     componentDidMount() {
+        //idSetTimeout = setInterval(this.showSlides, 2300)
         this.showSlides()
     }
 
