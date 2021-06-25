@@ -1,21 +1,34 @@
 import React, { Component } from 'react'
 import Exhibition from '../exhibition/Exhibition'
 import './Home.css'
+
 import Draw1 from '../../pictures/comDraw7.jpg'
 import Draw2 from '../../pictures/comDraw6.jpg'
 import Draw3 from '../../pictures/comDraw3.jpg'
 import Draw4 from '../../pictures/comDraw1.jpg'
 
+import Draw11 from '../../pictures/comDraw77.jpg'
+import Draw22 from '../../pictures/comDraw66.jpg'
+import Draw33 from '../../pictures/comDraw33.jpg'
+import Draw44 from '../../pictures/comDraw11.jpg'
+
 
 var slideIndex = 0;
 var dotIndex = 0;
-var images = [
+var images = window.innerWidth <= 560 ? [
+    Draw11,
+    Draw22,
+    Draw33,
+    Draw44
+] : [
     Draw1,
     Draw2,
     Draw3,
     Draw4
 ]
+
 var idSetTimeout = null;
+
 export class Home extends Component {
     constructor(props){
         super(props)
