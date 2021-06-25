@@ -8,40 +8,48 @@ import CardItem from '../card-item/CardItem'
 function Exhibition() {
     return (
         <div className='exhibition'>
-            <h1>Check out these MAGICAL Sketches !!!</h1>
+            <div className='exhibition__header__text'>Check out my MAGICAL Sketches !!!</div>
             <div className='exhibition__container'>
                 <div className='exhibition__wrapper'>
                     <ul className='exhibition__items'>
                         <CardItem
                             src={Draw1}
-                            text='Explore the hidden waterfall deep inside the Amazon Jungle'
-                            label='Adventure'
+                            text='Seeing this is a kind of meditation. More you see, more you get addicted.'
+                            label='Moksha'
+                            secondText='Mohit Sharma'
                             //path='/services'
                         />
                         <CardItem
                             src={Draw2}
-                            text='Travel through the Islands of Bali in a Private Cruise'
+                            text="How you draw is a reflection of how you feel about the world. You're not capturing it, you're interpreting it."
                             label='Luxury'
+                            secondText='Mohit Sharma'
                             // path='/services'
                         />
                     </ul>
                     <ul className='exhibition__items'>
                         <CardItem
                             src={Draw1}
-                            text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+                            text="How you draw is a reflection of how you feel about the world. You're not capturing it, you're interpreting it."
                             label='Mystery'
+                            secondText='Mohit Sharma'
+                            small
                             //path='/services'
                         />
                         <CardItem
                             src={Draw2}
-                            text='Experience Football on Top of the Himilayan Mountains'
+                            text='Seeing this is a kind of meditation. More you see, more you get addicted.'
                             label='Adventure'
+                            secondText='Mohit Sharma'
+                            small
                             //path='/products'
                         />
                         <CardItem
                             src={Draw3}
-                            text='Ride through the Sahara Desert on a guided camel tour'
+                            text='Seeing this is a kind of meditation. More you see, more you get addicted.'
                             label='Adrenaline'
+                            secondText='Mohit Sharma'
+                            small
                             //path='/sign-up'
                         />
                     </ul>

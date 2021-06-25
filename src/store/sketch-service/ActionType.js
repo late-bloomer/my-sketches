@@ -1,0 +1,1 @@
+export const SAVE_SKETCHES_DATA = 'SAVE_SKETCHES_DATA'
