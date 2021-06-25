@@ -16,7 +16,7 @@ function CardItem(props) {
           </figure>
           <div className={ props.small ? 'cards__item__info__small' : 'cards__item__info'}>
             <div className={props.small ? 'cards__item__text__small' : 'cards__item__text'}>
-              {props.text} <span>-{props.secondText}</span>
+              "{props.text}"<span> - {props.secondText}</span>
             </div>
           </div>
         {/* </Link> */}
