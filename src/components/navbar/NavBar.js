@@ -32,7 +32,7 @@ function NavBar() {
           <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/my-sketches" className="navbar-logo" onClick={closeMobileMenu}>
-                    <i class="fab fa-firstdraft" />DRAWING DREAMS 
+                    <i className="fab fa-firstdraft" />DRAWING DREAMS 
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>

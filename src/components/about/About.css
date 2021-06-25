@@ -6,13 +6,13 @@
 
 .me-img{
     width: 20vw;
-    margin-top: 2vh;
     border-radius: 16px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about-me-text{
     font-size: 3rem;
+    margin-bottom: 8px;
     font-family: cursive;
 }
 

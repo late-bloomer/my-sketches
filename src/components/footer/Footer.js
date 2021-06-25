@@ -5,33 +5,33 @@ export class Footer extends Component {
     render() {
         return (
         <div className='footer-container'>
-            <section class='social-media'>
-                <div class='social-media-wrap'>
-                    <small class='website-rights'>DRAWING DREAMS © 2021</small>
-                    <div class='social-icons'>
+            <section className='social-media'>
+                <div className='social-media-wrap'>
+                    <small className='website-rights'>DRAWING DREAMS © 2021</small>
+                    <div className='social-icons'>
                         <a
-                            class='social-icon-link'
+                            className='social-icon-link'
                             href='https://www.facebook.com/mohit2407'
                             target='_blank'
                             aria-label='Facebook'
                         >
-                            <i class='fab fa-facebook-f' />
+                            <i className='fab fa-facebook-f' />
                         </a>
                         <a
-                            class='social-icon-link'
+                            className='social-icon-link'
                             href='https://www.instagram.com/mohit_m_sharma2407/'
                             target='_blank'
                             aria-label='Instagram'
                         >
-                            <i class='fab fa-instagram' />
+                            <i className='fab fa-instagram' />
                         </a>
                         <a
-                            class='social-icon-link'
+                            className='social-icon-link'
                             href='https://www.linkedin.com/in/mohitusharma2407/'
                             target='_blank'
                             aria-label='LinkedIn'
                         >
-                            <i class='fab fa-linkedin' />
+                            <i className='fab fa-linkedin' />
                         </a>
                     </div>
                 </div>
