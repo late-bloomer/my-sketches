@@ -1,37 +1,34 @@
 {
   "files": {
     "main.css": "/my-sketches/static/css/main.fef7ca8e.chunk.css",
-    "main.js": "/my-sketches/static/js/main.5b9283c6.chunk.js",
-    "main.js.map": "/my-sketches/static/js/main.5b9283c6.chunk.js.map",
-    "runtime-main.js": "/my-sketches/static/js/runtime-main.029c6799.js",
-    "runtime-main.js.map": "/my-sketches/static/js/runtime-main.029c6799.js.map",
-    "static/js/2.91217c67.chunk.js": "/my-sketches/static/js/2.91217c67.chunk.js",
-    "static/js/2.91217c67.chunk.js.map": "/my-sketches/static/js/2.91217c67.chunk.js.map",
-    "static/js/3.33405c29.chunk.js": "/my-sketches/static/js/3.33405c29.chunk.js",
-    "static/js/3.33405c29.chunk.js.map": "/my-sketches/static/js/3.33405c29.chunk.js.map",
+    "main.js": "/my-sketches/static/js/main.467c11f0.chunk.js",
+    "main.js.map": "/my-sketches/static/js/main.467c11f0.chunk.js.map",
+    "runtime-main.js": "/my-sketches/static/js/runtime-main.fff726d1.js",
+    "runtime-main.js.map": "/my-sketches/static/js/runtime-main.fff726d1.js.map",
+    "static/js/2.789e36fb.chunk.js": "/my-sketches/static/js/2.789e36fb.chunk.js",
+    "static/js/2.789e36fb.chunk.js.map": "/my-sketches/static/js/2.789e36fb.chunk.js.map",
+    "static/js/3.e5fc0950.chunk.js": "/my-sketches/static/js/3.e5fc0950.chunk.js",
+    "static/js/3.e5fc0950.chunk.js.map": "/my-sketches/static/js/3.e5fc0950.chunk.js.map",
     "static/css/4.e40f7729.chunk.css": "/my-sketches/static/css/4.e40f7729.chunk.css",
-    "static/js/4.8ccbce64.chunk.js": "/my-sketches/static/js/4.8ccbce64.chunk.js",
-    "static/js/4.8ccbce64.chunk.js.map": "/my-sketches/static/js/4.8ccbce64.chunk.js.map",
+    "static/js/4.c518c3ab.chunk.js": "/my-sketches/static/js/4.c518c3ab.chunk.js",
+    "static/js/4.c518c3ab.chunk.js.map": "/my-sketches/static/js/4.c518c3ab.chunk.js.map",
     "index.html": "/my-sketches/index.html",
     "static/css/4.e40f7729.chunk.css.map": "/my-sketches/static/css/4.e40f7729.chunk.css.map",
     "static/css/main.fef7ca8e.chunk.css.map": "/my-sketches/static/css/main.fef7ca8e.chunk.css.map",
-    "static/js/3.33405c29.chunk.js.LICENSE.txt": "/my-sketches/static/js/3.33405c29.chunk.js.LICENSE.txt",
+    "static/js/3.e5fc0950.chunk.js.LICENSE.txt": "/my-sketches/static/js/3.e5fc0950.chunk.js.LICENSE.txt",
     "static/media/Me.021dcb5e.jpg": "/my-sketches/static/media/Me.021dcb5e.jpg",
-    "static/media/akku.761c2644.jpg": "/my-sketches/static/media/akku.761c2644.jpg",
-    "static/media/bhawna.3229e192.jpg": "/my-sketches/static/media/bhawna.3229e192.jpg",
     "static/media/comDraw1.9944972e.jpg": "/my-sketches/static/media/comDraw1.9944972e.jpg",
     "static/media/comDraw11.55c9126a.jpg": "/my-sketches/static/media/comDraw11.55c9126a.jpg",
     "static/media/comDraw3.8d8ff35a.jpg": "/my-sketches/static/media/comDraw3.8d8ff35a.jpg",
     "static/media/comDraw33.2084e4a6.jpg": "/my-sketches/static/media/comDraw33.2084e4a6.jpg",
     "static/media/comDraw6.47fa524f.jpg": "/my-sketches/static/media/comDraw6.47fa524f.jpg",
     "static/media/comDraw66.6447aeec.jpg": "/my-sketches/static/media/comDraw66.6447aeec.jpg",
-    "static/media/Home.css": "/my-sketches/static/media/comDraw77.5516201b.jpg",
-    "static/media/fox.09397a1f.jpg": "/my-sketches/static/media/fox.09397a1f.jpg"
+    "static/media/Home.css": "/my-sketches/static/media/comDraw77.5516201b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.029c6799.js",
-    "static/js/3.33405c29.chunk.js",
+    "static/js/runtime-main.fff726d1.js",
+    "static/js/3.e5fc0950.chunk.js",
     "static/css/main.fef7ca8e.chunk.css",
-    "static/js/main.5b9283c6.chunk.js"
+    "static/js/main.467c11f0.chunk.js"
   ]
 }
