@@ -43,6 +43,11 @@
     font-size: 1.5rem;
 }
 
+.about-heart {
+    font-size: 18px;
+    color: red;
+}
+
 @media screen and (max-width: 1330px){
     .about-me-para, .about-me-para3, .about-me-life{
         font-size: 1.2rem;

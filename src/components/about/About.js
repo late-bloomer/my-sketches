@@ -12,7 +12,7 @@ export class About extends Component {
                         Hi, Myself Mohit,
                         A Enthusiastic Frontend Web Developer from Bangalore, India.
                         A Die-hard fan of Cricket, a sketch artist, an adventure junkie 
-                        and having million dreams inside my heart.
+                        and having million dreams inside my heart<i className="fas fa-heart about-heart"></i>.
                     </div>
                     <div className="about-me-para about-me-para2">
                         When I am not coding, you will find me watching movie or on the 
