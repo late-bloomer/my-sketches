@@ -1,58 +1,86 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './Exhibition.css'
-import Draw1 from '../../pictures/akku.jpg'
-import Draw2 from '../../pictures/bhawna.jpg'
-import Draw3 from '../../pictures/fox.jpg'
 import CardItem from '../card-item/CardItem'
 
-function Exhibition() {
+function Exhibition({sketchData}) {
+    const [exhibitionSketchDataFirstTwo, setExhibitionSketchDataFirstTwo] = useState([])
+    const [exhibitionSketchDataRest, setExhibitionSketchDataRest] = useState([])
+    
+    useEffect(() => {
+       if(sketchData.length>0){
+           const tempData = convertToDesireData(sketchData)
+            setExhibitionSketchDataFirstTwo(tempData[0])
+            setExhibitionSketchDataRest(tempData[1])
+       }
+    }, [sketchData])
+
+    const convertToDesireData = (sketches=[]) => {
+        let tempArrFirst = []
+        let tempArrRest = []
+        tempArrFirst.push(sketches.slice(0,2));
+        let countArr = (sketches.length-2) / 3; //making chunk of threes
+        let start = 2;
+        for(let index=0 ; index<countArr ; index++){
+            let chunk = sketches.slice(start, start+3)
+            tempArrRest.push(chunk)
+            start= start+3;
+        }
+        return [tempArrFirst, tempArrRest];
+    }
+
     return (
         <div className='exhibition'>
             <div className='exhibition__header__text'>Check out my MAGICAL Sketches !!!</div>
             <div className='exhibition__container'>
                 <div className='exhibition__wrapper'>
-                    <ul className='exhibition__items'>
+                    {exhibitionSketchDataFirstTwo && exhibitionSketchDataFirstTwo.length>0 && 
+                    exhibitionSketchDataFirstTwo.map((data, key)=>(
+                    <ul className='exhibition__items' key={key}>
                         <CardItem
-                            src={Draw1}
-                            text='Seeing this, is a kind of meditation. More you see, more you get addicted.'
-                            label='Moksha'
-                            secondText='Mohit Sharma'
+                            src={process.env.PUBLIC_URL + data[0].image}
+                            text={data[0].quote}
+                            label={data[0].name}
+                            key={data[0].name}
+                            secondText={data[0].quote_writer}
                             //path='/services'
                         />
                         <CardItem
-                            src={Draw2}
-                            text="How you draw is a reflection of how you feel about the world. You're not capturing it, you're interpreting it."
-                            label='Luxury'
-                            secondText='Mohit Sharma'
-                            // path='/services'
-                        />
-                    </ul>
-                    <ul className='exhibition__items'>
-                        <CardItem
-                            src={Draw1}
-                            text="How you draw is a reflection of how you feel about the world. You're not capturing it, you're interpreting it."
-                            label='Mystery'
-                            secondText='Mohit Sharma'
-                            small
+                            src={process.env.PUBLIC_URL + data[1].image}
+                            text={data[1].quote}
+                            label={data[1].name}
+                            key={data[1].name}
+                            secondText={data[1].quote_writer}
                             //path='/services'
                         />
-                        <CardItem
-                            src={Draw2}
-                            text='Seeing this, is a kind of meditation. More you see, more you get addicted.'
-                            label='Adventure'
-                            secondText='Mohit Sharma'
-                            small
-                            //path='/products'
-                        />
-                        <CardItem
-                            src={Draw3}
-                            text='Seeing this, is a kind of meditation. More you see, more you get addicted.'
-                            label='Adrenaline'
-                            secondText='Mohit Sharma'
-                            small
-                            //path='/sign-up'
-                        />
-                    </ul>
+                    </ul>))}
+                    {exhibitionSketchDataRest && exhibitionSketchDataRest.length>0 && 
+                    exhibitionSketchDataRest.map((data, key)=>(
+                    <ul className='exhibition__items' key={key}>
+                        {data[0] && <CardItem
+                            src={process.env.PUBLIC_URL + data[0].image}
+                            text={data[0].quote}
+                            label={data[0].name}
+                            key={data[0].name}
+                            secondText={data[0].quote_writer}
+                            //path='/services'
+                        />}
+                        {data[1] && <CardItem
+                            src={process.env.PUBLIC_URL + data[1].image}
+                            text={data[1].quote}
+                            label={data[1].name}
+                            key={data[1].name}
+                            secondText={data[1].quote_writer}
+                            //path='/services'
+                        />}
+                        {data[2] && <CardItem
+                            src={process.env.PUBLIC_URL + data[2].image}
+                            text={data[2].quote}
+                            label={data[2].name}
+                            key={data[2].name}
+                            secondText={data[2].quote_writer}
+                            //path='/services'
+                        />}
+                    </ul>))}
                 </div>
             </div>
         </div>

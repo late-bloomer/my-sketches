@@ -2,7 +2,7 @@ import { combineReducers } from 'redux'
 import sketchReducer from './sketch-service/Reducer'
 
 const rootReducer = combineReducers({
-    sketchReducer
+    sketchReducer,
   });
   
-  export default rootReducer
+export default rootReducer

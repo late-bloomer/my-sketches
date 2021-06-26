@@ -8,7 +8,6 @@ import {
   
   export default function sketchReducer (state = initialState, action = {}) {
     const { type ='', payload = [] } = action
-    console.log("store..",payload);
     switch (type) {
       case SAVE_SKETCHES_DATA:
         return {
