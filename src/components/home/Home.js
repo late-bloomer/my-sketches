@@ -67,7 +67,7 @@ export class Home extends Component {
           dots[i].className = dots[i].className.replace("dot-active", "");
         } 
         dots[dotIndex-1].className += " dot-active";
-        idSetTimeout = setTimeout(this.showSlides, 2300); // Change image every 2.3 seconds
+        idSetTimeout = setTimeout(this.showSlides, 2500); // Change image every 2.5 seconds
     }
 
     componentWillUnmount() {
