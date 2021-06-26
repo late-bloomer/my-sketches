@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react'
 import { Route, Switch, BrowserRouter } from 'react-router-dom'
 //import Layout from '../layout/Layout'
-const Layout = React.lazy(() => import('../layout/Layout'));
+const Layout = React.lazy(() => import('../layout/Layout')); //lazy loading
 
 const App = () => (
   <BrowserRouter>

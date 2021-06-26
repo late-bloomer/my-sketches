@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { Route, Switch, withRouter, Redirect } from 'react-router-dom'
-import { connect, useDispatch } from 'react-redux'
+import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import NavBar from '../navbar/NavBar'
 import Home from '../home/Home'
@@ -8,9 +8,8 @@ import About from '../about/About'
 import Contact from '../contact/Contact'
 import Footer from '../footer/Footer'
 import './Layout.css';
-import {getSketchDataFromJson} from '../../store/sketch-service/Action'
+import {getSketchDataFromJson } from '../../store/sketch-service/Action'
 
-//const dispatch = useDispatch()
 
 export class Layout extends Component {
     constructor(props){
@@ -18,8 +17,7 @@ export class Layout extends Component {
     }
 
     componentDidMount(){
-        console.log("getSketchDataFromJson...componentDidMount..");
-        getSketchDataFromJson()
+        this.props.getSketchDataFromJson()
     }
 
     render() {
@@ -49,11 +47,4 @@ const mapDispatchToProps = dispatch =>
   bindActionCreators({ getSketchDataFromJson }, dispatch)
 
 
-const mapStateToProps = state => {
-  const { sketchReducer } = state
-  return {
-    sketchesData: sketchReducer
-  }
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(withRouter(Layout))
+export default connect(null, mapDispatchToProps)(withRouter(Layout))

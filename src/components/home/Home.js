@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
 import Exhibition from '../exhibition/Exhibition'
 import './Home.css'
 
@@ -32,13 +33,25 @@ var idSetTimeout = null;
 export class Home extends Component {
     constructor(props){
         super(props)
+        this.state = {
+            drawData: []
+        }
     }
 
     componentDidMount() {
         //idSetTimeout = setInterval(this.showSlides, 2300)
+        this.setState({drawData: this.props.sketches})
         this.showSlides()
     }
 
+    componentDidUpdate(prevProps, prevState) {
+        const { sketches } = this.props 
+        if(prevProps.sketches.length !== sketches.length){
+            this.setState({drawData: sketches})
+        }
+        
+    }
+    
     showSlides = () => {
         let i;
         var slides = document.querySelector("#home-container");
@@ -63,6 +76,7 @@ export class Home extends Component {
     
     
     render() {
+        const {drawData = []} = this.state
         return (
             <>
                 <div id='home-container' className="home-container">
@@ -78,10 +92,18 @@ export class Home extends Component {
                        <i className="fas fa-angle-double-down"></i>
                     </div>
                 </div>
-                <Exhibition />
+                <Exhibition sketchData={drawData}/>
             </>
         )
     }
 }
 
-export default Home
+const mapStateToProps = state => {
+  const { sketchReducer={} } = state
+  const { sketches = []} = sketchReducer
+  return {
+    sketches
+  }
+}
+
+export default connect(mapStateToProps, null)(Home)
