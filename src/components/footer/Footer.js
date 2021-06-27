@@ -7,7 +7,10 @@ export class Footer extends Component {
         <div className='footer-container'>
             <section className='social-media'>
                 <div className='social-media-wrap'>
-                    <small className='website-rights'>DRAWING DREAMS © 2021</small>
+                    <small className='website-rights'>
+                        DRAWING DREAMS © 2021
+                        <i className="fas fa-heart footer-heart"></i>
+                    </small>
                     <div className='social-icons'>
                         <a
                             className='social-icon-link'
