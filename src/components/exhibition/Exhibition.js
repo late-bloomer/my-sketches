@@ -42,6 +42,7 @@ function Exhibition({sketchData}) {
                             label={data[0].name}
                             key={data[0].name}
                             secondText={data[0].quote_writer}
+                            type={data[0].type}
                             //path='/services'
                         />
                         <CardItem
@@ -50,6 +51,7 @@ function Exhibition({sketchData}) {
                             label={data[1].name}
                             key={data[1].name}
                             secondText={data[1].quote_writer}
+                            type={data[1].type}
                             //path='/services'
                         />
                     </ul>))}
@@ -62,6 +64,7 @@ function Exhibition({sketchData}) {
                             label={data[0].name}
                             key={data[0].name}
                             secondText={data[0].quote_writer}
+                            type={data[0].type}
                             //path='/services'
                         />}
                         {data[1] && <CardItem
@@ -70,6 +73,7 @@ function Exhibition({sketchData}) {
                             label={data[1].name}
                             key={data[1].name}
                             secondText={data[1].quote_writer}
+                            type={data[1].type}
                             //path='/services'
                         />}
                         {data[2] && <CardItem
@@ -78,6 +82,7 @@ function Exhibition({sketchData}) {
                             label={data[2].name}
                             key={data[2].name}
                             secondText={data[2].quote_writer}
+                            type={data[2].type}
                             //path='/services'
                         />}
                     </ul>))}
