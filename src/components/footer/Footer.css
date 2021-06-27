@@ -38,6 +38,12 @@
   .website-rights {
     color: #fff;
   }
+
+  .footer-heart {
+    padding-left: 4px;
+    font-size: 14px;
+    color: red;
+  }
   
   @media screen and (max-width: 465px) {
     .social-media-wrap {
