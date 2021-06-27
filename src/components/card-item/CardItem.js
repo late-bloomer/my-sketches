@@ -8,11 +8,15 @@ function CardItem(props) {
       <li className='cards__item'>
         {/* <Link className='cards__item__link' to={props.path}> */}
           <figure className='cards__item__pic-wrap' data-category={props.label}>
-            <img
+            {props.type !== "video/mp4" ? <img
               className='cards__item__img'
               alt='DRAWING DREAMS'
               src={props.src}
-            />
+            />:
+            <video className='cards__item__video' controls>
+              <source src={props.src} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>}
           </figure>
           <div className={ props.small ? 'cards__item__info__small' : 'cards__item__info'}>
             <div className={props.small ? 'cards__item__text__small' : 'cards__item__text'}>

@@ -11,6 +11,16 @@
       "place": "Bangalore"
     },
     {
+      "name": "Magic",
+      "image": "/video/movie.mp4",
+      "date": "July, 2020",
+      "quote": "Drawing is not what one sees but what one can make others see",
+      "quote_writer": "Edgar Degas",
+      "artist": "Mohit Sharma",
+      "type": "video/mp4",
+      "place": "Bangalore"
+    },
+    {
       "name": "Feel The Life",
       "image": "/images/bhawna.jpg",
       "date": "June, 2020",
