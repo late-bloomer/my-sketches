@@ -31,6 +31,16 @@
       "place": "Bangalore"
     },
     {
+      "name": "The Stranger",
+      "image": "/images/doc-girl.jpg",
+      "date": "June, 2020",
+      "quote": "I love the quality of pencil. It helps me to get to the core of a thing.",
+      "quote_writer": "Andrew Wyeth",
+      "artist": "Mohit Sharma",
+      "type": "image/jpg",
+      "place": "Bangalore"
+    },
+    {
       "name": "The Dark Saint",
       "image": "/images/black-saint.jpg",
       "date": "August, 2020",
@@ -79,16 +89,6 @@
       "artist": "Mohit Sharma",
       "type": "image/jpg",
       "place": "Delhi"
-    },
-    {
-      "name": "The Stranger",
-      "image": "/images/doc-girl.jpg",
-      "date": "June, 2020",
-      "quote": "I love the quality of pencil. It helps me to get to the core of a thing.",
-      "quote_writer": "Andrew Wyeth",
-      "artist": "Mohit Sharma",
-      "type": "image/jpg",
-      "place": "Bangalore"
     },
     {
       "name": "The Unconditional Lover",
