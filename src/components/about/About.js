@@ -9,8 +9,8 @@ export class About extends Component {
                 <div className="about-text">
                     <div className="about-me-text">About Me</div>
                     <div className="about-me-para about-me-para-first">
-                        Hi, Myself Mohit,
-                        A Enthusiastic Frontend Web Developer from Bangalore, India.
+                        Hi, I am Mohit,
+                        An Enthusiastic Frontend Web Developer from Bangalore, India.
                         A Die-hard fan of Cricket, a sketch artist, an adventure junkie 
                         and having million dreams inside my heart<i className="fas fa-heart about-heart"></i>.
                     </div>
