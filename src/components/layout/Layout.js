@@ -26,12 +26,12 @@ export class Layout extends Component {
                 <NavBar />
                 <Fragment>{/* Changing component */}
                     <Switch>
-                        <Route exact path="/">
+                        {/* <Route exact path="/">
                             <Redirect to="/my-sketches" />
-                        </Route>
+                        </Route> */}
                         {/* <Route exact path="/" render={() => (<Redirect to="/my-sketches" />)} /> */}
-                        <Route exact path="/my-sketches" component={Home} />
-                        <Route exact path="/my-sketches/about-me" component={About} />
+                        <Route exact path="/" component={Home} />
+                        <Route exact path="/about-me" component={About} />
                         {/* <Route path="/my-sketches/contact-me" component={Contact} /> */}
                         <Route component={(props) => <Fragment>Not Found !!!</Fragment>} />
                     </Switch>

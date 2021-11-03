@@ -31,20 +31,20 @@ function NavBar() {
         <>
           <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/my-sketches" className="navbar-logo" onClick={closeMobileMenu}>
-                    <i className="fab fa-firstdraft" />DRAWING DREAMS 
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                     <i className="fab fa-firstdraft" />DRAWING DREAMS 
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item">
-                            <Link to="/my-sketches" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link to="/my-sketches/about-me" className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <Link to="/about-me" className='nav-links-mobile' onClick={closeMobileMenu}>
                                About Artist
                             </Link>
                         </li>

@@ -1,10 +1,10 @@
 import React, { Suspense } from 'react'
-import { Route, Switch, BrowserRouter } from 'react-router-dom'
+import { Route, Switch, HashRouter } from 'react-router-dom'
 //import Layout from '../layout/Layout'
 const Layout = React.lazy(() => import('../layout/Layout')); //lazy loading
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
       <Route path="/" component={props => 
         <Suspense fallback={<div>Loading...</div>}>
@@ -12,7 +12,7 @@ const App = () => (
         </Suspense>} 
       />
     </Switch>
-  </BrowserRouter>
+  </HashRouter>
 )
 
 export default App

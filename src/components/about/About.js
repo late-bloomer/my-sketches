@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './About.css'
-import ME from '../../pictures/Me.jpg'
+import myself from '../../pictures/myself.jpg'
 
 export class About extends Component {
     render() {
@@ -22,9 +22,10 @@ export class About extends Component {
                         Thank you for visiting me virtually. <span className='about-me-life'>Life is good !!!</span>
                     </div>
                 </div>
-                <div className="about-image">
-                    <img src={ME} alt="Mohit Sharma" className="me-img" />
-                </div>
+                {/* <div className="about-image">
+                    <img src={myself} alt="Mohit Sharma" className="me-img" loading="lazy"/>
+                </div> */}
+                <div className="me-img"></div>
             </div>
         )
     }
